@@ -2,16 +2,17 @@
   <router-view />
 </template>
 
-<style scoped>
+<style>
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+  font-family: Helvetica Neue,Helvetica,PingFang SC;
 }
 
 html, body {
   height: 100%;
+  margin: 0;
 }
 body {
   background-color: #f6f7f9;

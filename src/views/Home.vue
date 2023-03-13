@@ -44,6 +44,7 @@ const goPage = (str) => {
   justify-content: center;
   width: 100%;
   height: 42px;
+  font-size: 14px;
   background-color: #fff;
   box-shadow: 1px 0px 5px 0 rgba(0,0,0,.03);
   letter-spacing: 1px;

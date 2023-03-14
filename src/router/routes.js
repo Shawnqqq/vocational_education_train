@@ -4,17 +4,17 @@ import Detail from "../views/Detail.vue";
 
 export default [
   {
-    path: "/vocational-training",
+    path: "",
     name: "Home",
     component: Home
   },
   {
-    path: "/vocational-training/level/:id",
+    path: "/level/:id",
     name: "Level",
     component: Level
   },
   {
-    path: "/vocational-training/detail/:id",
+    path: "/detail/:id",
     name: "Detail",
     component: Detail
   }

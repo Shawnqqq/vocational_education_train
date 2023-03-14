@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import { middleResource } from '../resource';
+import { middleResource, elementaryRes } from '../resource';
 import { useRouter, useRoute } from 'vue-router';
 import { ref } from 'vue';
 
@@ -29,6 +29,8 @@ const type = route.params.id;
 let resource = ref({});
 if (type === 'middle') {
   resource = middleResource
+} else {
+  resource = elementaryRes
 }
 // 数据过滤
 const data = Object.values(resource).map((r) => {
@@ -57,7 +59,7 @@ const goDetail = (data) => {
       id: data
     },
     query: {
-      type: 'middle'
+      type
     }
   })
 }

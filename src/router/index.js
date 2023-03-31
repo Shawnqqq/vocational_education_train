@@ -12,6 +12,12 @@ router.firstInit = false;
 
 router.beforeEach((to,from,next) => {
   NProgress.start();
+  // if (to.name !== 'Login') {
+  //   next({
+  //     name: 'Login'
+  //   });
+  //   return
+  // }
   next();
 })
 

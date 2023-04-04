@@ -20,6 +20,7 @@
       <el-button
         size="large"
         type="primary"
+        :loading="loading"
         @click="handleSubmit"
       >
         确认
@@ -40,11 +41,44 @@
 
 <script setup>
 import { ref } from 'vue';
+import { ElMessage } from 'element-plus'
+import { useRouter } from 'vue-router';
+import request from '../requests'
+import isExpire from '../utils'
 
 let account = ref('')
 let password = ref('')
+let loading = ref(false)
+const router = useRouter();
 const handleSubmit = () => {
-  console.log(account.value,password.value)
+  if (!account.value || !password.value) {
+    ElMessage.error('请输入帐号和密码')
+    return;
+  }
+  loading.value = true;
+  request().then((res) => {
+    const accountData = res.find((d) => d.account === account.value);
+    if (!accountData) {
+      ElMessage.error('该帐号不存在')
+      return;
+    }
+    if (accountData.password !== password.value) {
+      ElMessage.error('密码输入错误')
+      return;
+    }
+    if (isExpire(accountData.start,accountData.day)) {
+      ElMessage.error('该帐号已过期')
+      return;
+    }
+    const key = window.btoa(JSON.stringify({a:accountData.start,b:accountData.day}));
+    localStorage.setItem('_initial_px',key)
+    router.push({
+      name: 'Home'
+    })
+  })
+  .finally(() => {
+    loading.value = false;
+  })
 }
 </script>
 

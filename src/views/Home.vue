@@ -21,6 +21,15 @@
       </div>
       <div class="item-icon">></div>
     </div>
+    <div
+      class="item"
+      @click="goPage('middleNursery')"
+    >
+      <div class="item-info" >
+        <div class="item-name">中级育婴师学习</div>
+      </div>
+      <div class="item-icon">></div>
+    </div>
   </div>
 </template>
 

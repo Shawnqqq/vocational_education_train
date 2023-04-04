@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="go-back" @click="goBack">&lt;</div>
-    <div class="title">职业技能培训</div>
+    <div class="title">{{ title }}</div>
   </div>
   <div class="content">
     <div
@@ -20,18 +20,24 @@
 </template>
 
 <script setup>
-import { middleResource, elementaryRes } from '../resource';
+import { middleResource, elementaryRes, middleNurseryResource } from '../resource';
 import { useRouter, useRoute } from 'vue-router';
 import { ref } from 'vue';
 
 const router = useRouter(),route = useRoute();
 const type = route.params.id;
-let resource = ref({});
-if (type === 'middle') {
-  resource = middleResource
-} else {
-  resource = elementaryRes
+const typeArr = {
+  'middle': middleResource,
+  'elementary': elementaryRes,
+  'middleNursery': middleNurseryResource
 }
+let resource = typeArr[type] || {}
+const typeTitle = {
+  'middle': '中级保育师',
+  'elementary': '初级保育师',
+  'middleNursery': '中级育婴师'
+}
+let title = typeTitle[type] || '职业技能培训'
 // 数据过滤
 const data = Object.values(resource).map((r) => {
   const result = [];

@@ -76,8 +76,8 @@ const middleNurseryResource = {
   '中级-育婴员综合练习题2': middle_nursery_9
 }
 
-export {
-  middleResource,
-  elementaryRes,
-  middleNurseryResource
+export default {
+  'middle': middleResource,
+  'elementary': elementaryRes,
+  'middleNursery': middleNurseryResource
 }

@@ -20,17 +20,12 @@
 </template>
 
 <script setup>
-import { middleResource, elementaryRes, middleNurseryResource } from '../resource';
+import typeArr from '../resource';
 import { useRouter, useRoute } from 'vue-router';
 import { ref } from 'vue';
 
 const router = useRouter(),route = useRoute();
 const type = route.params.id;
-const typeArr = {
-  'middle': middleResource,
-  'elementary': elementaryRes,
-  'middleNursery': middleNurseryResource
-}
 let resource = typeArr[type] || {}
 const typeTitle = {
   'middle': '中级保育师',

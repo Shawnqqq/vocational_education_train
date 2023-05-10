@@ -40,16 +40,11 @@
 
 <script setup>
 import { useRoute, useRouter } from 'vue-router';
-import { middleResource, elementaryRes, middleNurseryResource } from '../resource';
+import typeArr from '../resource';
 import { computed, ref } from 'vue';
 const route = useRoute(),router = useRouter();
 // 数据获取
 const type = route.query.type,key = route.params.id;
-const typeArr = {
-  'middle': middleResource,
-  'elementary': elementaryRes,
-  'middleNursery': middleNurseryResource
-}
 let resource = typeArr[type] || {}
 const question_origin = resource[key] || []
 // 数据过滤

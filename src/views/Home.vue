@@ -30,6 +30,15 @@
       </div>
       <div class="item-icon">></div>
     </div>
+    <div
+      class="item"
+      @click="goPage('exam63')"
+    >
+      <div class="item-info" >
+        <div class="item-name">6.3考试练习题</div>
+      </div>
+      <div class="item-icon">></div>
+    </div>
   </div>
 </template>
 

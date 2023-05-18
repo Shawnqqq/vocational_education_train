@@ -53,6 +53,11 @@ const goPage = (str) => {
     }
   })
 }
+// a.forEach((d) => {
+//   let one = {...d,"option": "正确"}, two = {...d,"option": "错误"}
+//   b.push(one);
+//   b.push(two);
+// })
 </script>
 
 <style lang="less" scoped>

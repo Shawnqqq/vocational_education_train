@@ -34,11 +34,6 @@ import middle_nursery_7 from './中级育婴师/中级-技能-第四章节：教
 import middle_nursery_8 from './中级育婴师/中级-育婴员综合练习题1.json'
 import middle_nursery_9 from './中级育婴师/中级-育婴员综合练习题2.json'
 
-import exam_63_1 from './6.3考试练习题/练习题1-100.json'
-import exam_63_2 from './6.3考试练习题/练习题101-220.json'
-import exam_63_3 from './6.3考试练习题/练习题221-300.json'
-import exam_63_4 from './6.3考试练习题/练习题301-364.json'
-
 const middleResource = {
   '中级-理论-第一章节：职业道德 练习题': middle_1,
   '中级-技能-第一章节：环境创设 练习题': middle_2,
@@ -81,16 +76,8 @@ const middleNurseryResource = {
   '中级-育婴员综合练习题2': middle_nursery_9
 }
 
-const exam63Resource = {
-  '练习题1-100': exam_63_1,
-  '练习题101-220': exam_63_2,
-  '练习题221-300': exam_63_3,
-  '练习题301-364': exam_63_4
-}
-
 export default {
   'middle': middleResource,
   'elementary': elementaryRes,
-  'middleNursery': middleNurseryResource,
-  'exam63': exam63Resource
+  'middleNursery': middleNurseryResource
 }

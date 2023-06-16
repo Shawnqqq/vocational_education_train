@@ -30,7 +30,8 @@ let resource = typeArr[type] || {}
 const typeTitle = {
   'middle': '中级保育师',
   'elementary': '初级保育师',
-  'middleNursery': '中级育婴师'
+  'middleNursery': '中级育婴师',
+  'baoyushi': '保育师364题'
 }
 let title = typeTitle[type] || '职业技能培训'
 // 数据过滤

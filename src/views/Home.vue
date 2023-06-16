@@ -30,6 +30,15 @@
       </div>
       <div class="item-icon">></div>
     </div>
+    <div
+      class="item"
+      @click="goPage('baoyushi')"
+    >
+      <div class="item-info" >
+        <div class="item-name">保育师364题</div>
+      </div>
+      <div class="item-icon">></div>
+    </div>
   </div>
 </template>
 

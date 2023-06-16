@@ -34,6 +34,11 @@ import middle_nursery_7 from './中级育婴师/中级-技能-第四章节：教
 import middle_nursery_8 from './中级育婴师/中级-育婴员综合练习题1.json'
 import middle_nursery_9 from './中级育婴师/中级-育婴员综合练习题2.json'
 
+import baoyushi_1 from './保育师364题/1-100.json'
+import baoyushi_2 from './保育师364题/101-220.json'
+import baoyushi_3 from './保育师364题/221-300.json'
+import baoyushi_4 from './保育师364题/301-364.json'
+
 const middleResource = {
   '中级-理论-第一章节：职业道德 练习题': middle_1,
   '中级-技能-第一章节：环境创设 练习题': middle_2,
@@ -76,8 +81,16 @@ const middleNurseryResource = {
   '中级-育婴员综合练习题2': middle_nursery_9
 }
 
+const baoyushiResource = {
+  '1-100题': baoyushi_1,
+  '101-220题': baoyushi_2,
+  '221-300题': baoyushi_3,
+  '301-364题': baoyushi_4
+}
+
 export default {
   'middle': middleResource,
   'elementary': elementaryRes,
-  'middleNursery': middleNurseryResource
+  'middleNursery': middleNurseryResource,
+  'baoyushi':baoyushiResource
 }

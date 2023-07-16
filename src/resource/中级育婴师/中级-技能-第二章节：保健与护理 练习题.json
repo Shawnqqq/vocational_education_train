@@ -254,5 +254,329 @@
 {"question_id":64,"stem":"发生脐炎的正确处理方法是（）","answer":"D","option":"A. 用酒精消毒即可"},
 {"question_id":64,"stem":"发生脐炎的正确处理方法是（）","answer":"D","option":"B. 给予清淡饮食"},
 {"question_id":64,"stem":"发生脐炎的正确处理方法是（）","answer":"D","option":"C. 及时更换尿布"},
-{"question_id":64,"stem":"发生脐炎的正确处理方法是（）","answer":"D","option":"D. 及时就诊"}
+{"question_id":64,"stem":"发生脐炎的正确处理方法是（）","answer":"D","option":"D. 及时就诊"},
+    {
+        "question_id": 65,
+        "stem": "衡量体格生长的重要指标：体重。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 65,
+        "stem": "衡量体格生长的重要指标：体重。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 66,
+        "stem": "反映婴幼儿骨骼发育的重要指标是指身长。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 66,
+        "stem": "反映婴幼儿骨骼发育的重要指标是指身长。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 67,
+        "stem": "约在2-2.5岁出齐乳牙。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 67,
+        "stem": "约在2-2.5岁出齐乳牙。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 68,
+        "stem": "婴幼儿年龄越小，体重增长越快。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 68,
+        "stem": "婴幼儿年龄越小，体重增长越快。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 69,
+        "stem": "体重过重：婴幼儿体重是同龄正常儿童体重平均数+1SD。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 69,
+        "stem": "体重过重：婴幼儿体重是同龄正常儿童体重平均数+1SD。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 70,
+        "stem": "低体重：婴幼儿体重是同龄正常儿童体重平均数-2SD。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 70,
+        "stem": "低体重：婴幼儿体重是同龄正常儿童体重平均数-2SD。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 71,
+        "stem": "幼儿期是指0-3周岁。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 71,
+        "stem": "幼儿期是指0-3周岁。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 72,
+        "stem": "婴幼儿生长发育是连续性和均衡发展的。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 72,
+        "stem": "婴幼儿生长发育是连续性和均衡发展的。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 73,
+        "stem": "自乳头上缘经肩胛骨角上绕胸一周的长度。这是胸围。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 73,
+        "stem": "自乳头上缘经肩胛骨角上绕胸一周的长度。这是胸围。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 74,
+        "stem": "体温升高：婴幼儿在衣着过多时。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 74,
+        "stem": "体温升高：婴幼儿在衣着过多时。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 75,
+        "stem": "通常腋下测量的体温比肛门所测出的体温稍低。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 75,
+        "stem": "通常腋下测量的体温比肛门所测出的体温稍低。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 76,
+        "stem": "婴幼儿特别是新生儿其体温受外环境影响较大。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 76,
+        "stem": "婴幼儿特别是新生儿其体温受外环境影响较大。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 77,
+        "stem": "由于营养不良，婴幼儿特别是新生儿其体温受外环境影响较大。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 77,
+        "stem": "由于营养不良，婴幼儿特别是新生儿其体温受外环境影响较大。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 78,
+        "stem": "婴幼儿在喝奶或哭闹时，体温38℃也属于正常范围。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 78,
+        "stem": "婴幼儿在喝奶或哭闹时，体温38℃也属于正常范围。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 79,
+        "stem": "会导致婴幼儿体温升高：室温过高或衣着过多。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 79,
+        "stem": "会导致婴幼儿体温升高：室温过高或衣着过多。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 80,
+        "stem": "超高热：发热体温达到40℃。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 80,
+        "stem": "超高热：发热体温达到40℃。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 81,
+        "stem": "应及时给予物理降温：婴幼儿发热时，体温在38.5℃以上时。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 81,
+        "stem": "应及时给予物理降温：婴幼儿发热时，体温在38.5℃以上时。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 82,
+        "stem": "防止受凉感冒，婴幼儿发热时要注意不能擦浴。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 82,
+        "stem": "防止受凉感冒，婴幼儿发热时要注意不能擦浴。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 83,
+        "stem": "便秘：婴幼儿只要是排便十分用力才能排出来，粪便坚硬、干燥。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 83,
+        "stem": "便秘：婴幼儿只要是排便十分用力才能排出来，粪便坚硬、干燥。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 84,
+        "stem": "由于每个婴幼儿排便习惯不同，便秘是没有绝对的日数限制的。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 84,
+        "stem": "由于每个婴幼儿排便习惯不同，便秘是没有绝对的日数限制的。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 85,
+        "stem": "生活环境的突然改变也会引起婴幼儿便秘。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 85,
+        "stem": "生活环境的突然改变也会引起婴幼儿便秘。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 86,
+        "stem": "选择添加β-植物油的配方奶粉，并增加富含膳食纤维的食品。这是便秘时给婴幼儿做饮食调整的方法。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 86,
+        "stem": "选择添加β-植物油的配方奶粉，并增加富含膳食纤维的食品。这是便秘时给婴幼儿做饮食调整的方法。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 87,
+        "stem": "婴幼儿皮肤角质层比较薄弱，应该2-3天沐浴1次比较合适。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 87,
+        "stem": "婴幼儿皮肤角质层比较薄弱，应该2-3天沐浴1次比较合适。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 88,
+        "stem": "鹅口疮是由病毒引起的口腔黏膜感染。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 88,
+        "stem": "鹅口疮是由病毒引起的口腔黏膜感染。",
+        "answer": "错误",
+        "option": "错误"
+    },
+    {
+        "question_id": 89,
+        "stem": "可由粪便潮湿污染、细菌及霉菌感染等引起尿布皮炎。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 89,
+        "stem": "可由粪便潮湿污染、细菌及霉菌感染等引起尿布皮炎。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 90,
+        "stem": "发生炎症：新生儿脐部渗水时，包裹脐带的纱布会有潮湿现象，甚至可能有异常气味。",
+        "answer": "正确",
+        "option": "正确"
+    },
+    {
+        "question_id": 90,
+        "stem": "发生炎症：新生儿脐部渗水时，包裹脐带的纱布会有潮湿现象，甚至可能有异常气味。",
+        "answer": "正确",
+        "option": "错误"
+    },
+    {
+        "question_id": 91,
+        "stem": "新生儿脐带残端未脱落时，可进行泡浴，浴后用毛巾擦干即可。",
+        "answer": "错误",
+        "option": "正确"
+    },
+    {
+        "question_id": 91,
+        "stem": "新生儿脐带残端未脱落时，可进行泡浴，浴后用毛巾擦干即可。",
+        "answer": "错误",
+        "option": "错误"
+    }
 ]

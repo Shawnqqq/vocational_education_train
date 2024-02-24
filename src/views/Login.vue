@@ -4,6 +4,7 @@
     <div class="desc">请不要将账号外借，</div>
     <div class="desc">频繁的异地登录行为会导致账号收回，</div>
     <div class="desc">本网站的内容仅供您个人而非商业性使用。</div>
+    <div class="desc">如有侵权之处，请您与我们联系，我们将及时处理。</div>
     <div class="main">
       <el-input
         v-model="account"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="title">职业技能培训</div>
+    <div class="title">职业技能</div>
   </div>
   <div class="content">
     <div class="divider">

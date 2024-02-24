@@ -3,6 +3,11 @@
     <div class="title">职业技能培训</div>
   </div>
   <div class="content">
+    <div class="divider">
+      <span class="line"></span>
+      <span class="text">练习题</span>
+      <span class="line"></span>
+    </div>
     <div
       class="item"
       @click="goPage('elementary')"
@@ -36,6 +41,20 @@
     >
       <div class="item-info" >
         <div class="item-name">保育师364题</div>
+      </div>
+      <div class="item-icon">></div>
+    </div>
+    <div class="divider bottom">
+      <span class="line"></span>
+      <span class="text">视频</span>
+      <span class="line"></span>
+    </div>
+    <div
+      class="item"
+      @click="goPage('middleNurseryVideo')"
+    >
+      <div class="item-info" >
+        <div class="item-name">中级保育师实操视频</div>
       </div>
       <div class="item-icon">></div>
     </div>
@@ -94,6 +113,25 @@ const goPage = (str) => {
       margin-left: auto;
       font-size: 14px;
       color: rgba(0,0,0,0.75);
+    }
+  }
+  .divider {
+    margin: 16px 0 24px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.85);
+    .line {
+      width: 50%;
+      height: 1px;
+      background-color: rgba(0,0,0,0.45);
+    }
+    .text {
+      margin: 0 8px;
+      flex: none;
+    }
+    &.bottom {
+      margin-top: 36px;
     }
   }
 }

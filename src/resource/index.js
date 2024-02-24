@@ -39,6 +39,8 @@ import baoyushi_2 from './保育师364题/101-220.json'
 import baoyushi_3 from './保育师364题/221-300.json'
 import baoyushi_4 from './保育师364题/301-364.json'
 
+import middleNurseryVideoResource from './中级保育师实操视频/index.js';
+
 const middleResource = {
   '中级-理论-第一章节：职业道德 练习题': middle_1,
   '中级-技能-第一章节：环境创设 练习题': middle_2,
@@ -92,5 +94,6 @@ export default {
   'middle': middleResource,
   'elementary': elementaryRes,
   'middleNursery': middleNurseryResource,
-  'baoyushi':baoyushiResource
+  'baoyushi':baoyushiResource,
+  'middleNurseryVideo': middleNurseryVideoResource
 }

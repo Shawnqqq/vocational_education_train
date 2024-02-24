@@ -8,11 +8,11 @@
       v-for="(value,key) in data"
       :key="key"
       class="item"
-      @click="goDetail(titles[key])"
+      @click="value.length ? goDetail(titles[key]) : goVideoDetail(value,titles[key])"
     >
       <div class="item-info">
         <div class="item-name">{{titles[key]}}</div>
-        <div class="item-count">题目数量：<strong>{{value.length}}</strong></div>
+        <div class="item-count" v-show="value.length">题目数量：<strong>{{value.length}}</strong></div>
       </div>
       <div class="item-icon">></div>
     </div>
@@ -31,27 +31,33 @@ const typeTitle = {
   'middle': '中级保育师',
   'elementary': '初级保育师',
   'middleNursery': '中级育婴师',
-  'baoyushi': '保育师364题'
+  'baoyushi': '保育师364题',
+  'middleNurseryVideo': '中级保育师实操视频'
 }
 let title = typeTitle[type] || '职业技能培训'
 // 数据过滤
-const data = Object.values(resource).map((r) => {
-  const result = [];
-  r.forEach((d) => {
-    const temp = result.find((i) => i.id === d.question_id)
-    if (temp) {
-      temp.options.push(d.option)
-    } else {
-      result.push({
-        id: d.question_id,
-        stem: d.stem,
-        answer: d.answer,
-        options: [d.option]
-      })
-    }
+let data = [];
+if (type === 'middleNurseryVideo') {
+  data = Object.values(resource).map((r) => ({id: r}))
+} else {
+  data = Object.values(resource).map((r) => {
+    const result = [];
+    r.forEach((d) => {
+      const temp = result.find((i) => i.id === d.question_id)
+      if (temp) {
+        temp.options.push(d.option)
+      } else {
+        result.push({
+          id: d.question_id,
+          stem: d.stem,
+          answer: d.answer,
+          options: [d.option]
+        })
+      }
+    })
+    return result
   })
-  return result
-})
+}
 const titles = Object.keys(resource);
 
 const goDetail = (data) => {
@@ -62,6 +68,17 @@ const goDetail = (data) => {
     },
     query: {
       type
+    }
+  })
+}
+const goVideoDetail = (value,title) => {
+  router.push({
+    name: 'VideoDetail',
+    params: {
+      id: value.id
+    },
+    query: {
+      title
     }
   })
 }

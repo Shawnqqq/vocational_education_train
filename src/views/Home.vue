@@ -124,7 +124,7 @@ const goPage = (str) => {
     .line {
       width: 50%;
       height: 1px;
-      background-color: rgba(0,0,0,0.45);
+      background-color: rgba(0,0,0,0.12);
     }
     .text {
       margin: 0 8px;

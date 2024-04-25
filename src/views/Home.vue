@@ -35,7 +35,7 @@
       </div>
       <div class="item-icon">></div>
     </div>
-    <div
+    <!-- <div
       class="item"
       @click="goPage('baoyushi')"
     >
@@ -43,7 +43,7 @@
         <div class="item-name">保育师364题</div>
       </div>
       <div class="item-icon">></div>
-    </div>
+    </div> -->
     <div class="divider bottom">
       <span class="line"></span>
       <span class="text">视频</span>

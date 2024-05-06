@@ -33,5 +33,8 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: '/vocational-training/'
+  base: '/vocational_education_train/',
+  build: {
+    outDir: 'docs'
+  }
 });
